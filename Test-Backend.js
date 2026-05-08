@@ -12,8 +12,9 @@ const sentences = [
 ];
 
 function result(sentences) {
-    const result = sentences[0].length + sentences[1].length + sentences[2].length
-    return result
+  const result = sentences[0].length + sentences[1].length + sentences[2].length
+
+  return result
 }
 
 console.log(result(sentences));
